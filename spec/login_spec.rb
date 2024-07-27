@@ -8,7 +8,7 @@ describe 'Login' do
   end
 
   it 'succeeded' do
-    @login.with('tomsmith', 'SuperSecretPassword!')
+    @login.with('mohamed', 'bruboy')
     expect(@login.success_message_present?).to eql true
   end
 
@@ -18,3 +18,4 @@ describe 'Login' do
   end
 
 end
+accept username('mohamed',) accept password('bruboy',)
